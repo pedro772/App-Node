@@ -26,7 +26,7 @@ router.post("/registro", (req, res) => {
                     nome: req.body.nome,
                     email: req.body.email,
                     senha: req.body.senha,
-                    isAdmin: 1 // -> registra usuário como admin
+                    // isAdmin: 1 -> registra usuário como admin
                 });
 
                 bcrypt.genSalt(10, (erro, salt) => {
