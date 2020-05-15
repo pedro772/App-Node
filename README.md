@@ -5,3 +5,5 @@ Depois de uma semana de estudos intensos, horas dedicadas para correção de err
 Para autenticação dos usuários, foi usado o middleware autenticador Passport.js e para criptografia do tipo hash, o método Bycrypt. 
 
 Para criar postagens ou categorias é necessário uma alteração no código-fonte para criar um usuário admin, os usuários registrados normalmente só tem autorização para visualizar posts.
+
+link para o app hospedado no Heroku: https://appl-nodejs.herokuapp.com/
